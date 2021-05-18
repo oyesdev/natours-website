@@ -30,11 +30,11 @@
       
       <nav class="navigation__nav">
         <ul class="navigation__list">
-          <li class="navigation__items"><a href="#" class="navigation__link"> <span>01</span> About Natours</a></li>
-          <li class="navigation__items"><a href="#" class="navigation__link"> <span>02</span>  Your Benfits</a></li>
-          <li class="navigation__items"><a href="#" class="navigation__link"> <span>03</span>  Popular Tours</a></li>
-          <li class="navigation__items"><a href="#" class="navigation__link"> <span>04</span>  Stories</a></li>
-          <li class="navigation__items"><a href="#" class="navigation__link"> <span>05</span>  Book Now</a></li>
+          <li class="navigation__items"><a href="#section-about" class="navigation__link"> <span>01</span> About Natours </a></li>
+          <li class="navigation__items"><a href="#section-features" class="navigation__link"> <span>02</span>  Your Benfits </a></li>
+          <li class="navigation__items"><a href="#section-tours" class="navigation__link"> <span>03</span>  Popular Tours </a></li>
+          <li class="navigation__items"><a href="#section-stories" class="navigation__link"> <span>04</span>  Stories </a></li>
+          <li class="navigation__items"><a href="#section-book" class="navigation__link"> <span>05</span>  Book Now </a></li>
         </ul>
       </nav>
     </div>
@@ -60,7 +60,7 @@
 
     <main>
       <!---- ABOUT SECTION ---->
-      <section class="section-about">
+      <section class="section-about" id="section-about">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">
             Exciting tours for adventurous people
@@ -95,16 +95,22 @@
           <div class="col-1-of-2">
             <div class="composition">
               <img
+                srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 src="img/nat-1-large.jpg"
                 alt="photo 1"
                 class="composition__photo composition__photo-p1"
               />
               <img
+                srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 src="img/nat-2-large.jpg"
                 alt="photo 2"
                 class="composition__photo composition__photo-p2"
               />
               <img
+                srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 src="img/nat-3-large.jpg"
                 alt="photo 3"
                 class="composition__photo composition__photo-p3"
@@ -116,7 +122,7 @@
 
       <!---- FEATURES ---->
 
-      <section class="section-features">
+      <section class="section-features" id="section-features">
         <div class="row">
           <!-- FEATURE - 1 -->
           <div class="col-1-of-4">
@@ -295,7 +301,7 @@
 
       <!---- STORIES ---->
 
-      <section class="section-stories">
+      <section class="section-stories" id="section-stories">
         <!-- BACKGROUND VIDEO -->
 
         <div class="bg-video">
@@ -375,7 +381,7 @@
 
                           <!------ BOOKING SECTION------>
 
-      <section class="section-book">
+      <section class="section-book" id="section-book">
         <div class="row">
           <div class="book">
             <div class="book__form">
@@ -426,9 +432,16 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="footer__logo-box">
-        <img src="./img/logo-green-2x.png" alt="Ful logo" class="footer__logo">
+
+        <picture class="footer__logo">
+          <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
+              media="(max-width: 37.5rem)">
+          <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Ful logo" src="img/logo-green-2x.png">
+        </picture>
+
+
       </div>
       <div class="row">
         <div class="footer__center-nav">
@@ -470,73 +483,5 @@
         </div>
       </div>
     </div>
-
-    <!-- <section class="grid-test">
-            <div class="row">
-                <div class="col-1-of-2">
-                    col 1 of 2
-                </div>
-                <div class="col-1-of-2">
-                    col 1 of 2
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-1-of-3">
-                    col 1 of 3
-                </div>
-                <div class="col-1-of-3">
-                    col 1 of 3
-                </div>
-                <div class="col-1-of-3">
-                    col 1 of 3
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-2-of-3">
-                    col 2 of 3
-                </div>
-                <div class="col-2-of-3">
-                    col 2 of 3
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-1-of-4">
-                    col 1 of 4
-                </div>
-                <div class="col-1-of-4">
-                    col 1 of 4
-                </div>
-                <div class="col-1-of-4">
-                    col 1 of 4
-                </div>
-                <div class="col-1-of-4">
-                    col 1 of 4
-                </div>
-            </div>
-        
-            <div class="row">
-                <div class="col-1-of-4">
-                    col 1 of 4
-                </div>
-                <div class="col-1-of-4">
-                    col 1 of 4
-                </div>
-                <div class="col-2-of-4">
-                    col 2 of 4
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-1-of-4">
-                    col 1 of 4
-                </div>
-                <div class="col-3-of-4">
-                    col 3 of 4
-                </div>
-            </div>
-        </section> -->
   </body>
 </html>

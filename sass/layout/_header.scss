@@ -4,20 +4,42 @@
         to right bottom,
         rgba($color-primary-light,0.8), 
         rgba($color-primary-dark,0.8)), 
-        url("../img/hero.jpg");
+        url("../img/hero-small.jpg");
     background-size: cover;
     background-position: top;
     position: relative;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
+    @media(min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {  // Making image responsive and pixel dependent
+        background-image: linear-gradient(
+            to right bottom,
+            rgba($color-primary-light,0.8), 
+            rgba($color-primary-dark,0.8)), 
+            url("../img/hero.jpg");
+    }
+
+    @include respond(phone) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    }
+
     &__logo-box {
         position: absolute;
         top: 40px;
         left: 40px;
+
+        @include respond(phone) {
+            top: 35px;
+            left: 20px;
+        }
     }
     &__logo {
-        height: 35px;
+        height: 40px;
+
+        @include respond(iphone4) {
+            height: 38px;
+        }
     }
     &__text-box {
         position: absolute;
