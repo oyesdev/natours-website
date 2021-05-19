@@ -1,5 +1,9 @@
 # Natours
 
+A tour booking website built using HTML & Sass.
+
+![Natours](https://raw.githubusercontent.com/oyesdev/natours-website/master/img/preview.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
