@@ -1,0 +1,3 @@
+# natours-website
+
+## Available Scripts
