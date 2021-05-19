@@ -3,7 +3,7 @@
 A tour booking website built using HTML & Sass.
 
 ### Demo
-[Click here](https://book-tour.netlify.app/) to view demo.
+<a href="https://book-tour.netlify.app/" target="_blank">Click here</a> to view demo.
 
 ## Available Scripts
 
