@@ -1,7 +1,7 @@
 # Natours
 
 A tour booking website built using HTML & Sass.
-<img src="img/preview.png" alt="drawing" width="400" height="900" align="right"/>
+<img src="img/preview.png" alt="drawing" width="400" align="right"/>
 
 ## Available Scripts
 
