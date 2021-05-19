@@ -4,7 +4,7 @@ A tour booking website built using HTML & Sass.
 
 <!--![Natours](https://raw.githubusercontent.com/oyesdev/natours-website/master/img/preview.png)-->
 
-<img src="img/preview.png" alt="drawing" width="400" height="900"/>
+<img src="img/preview.png" alt="drawing" width="400" height="900" style="float: right;"/>
 
 ## Available Scripts
 
