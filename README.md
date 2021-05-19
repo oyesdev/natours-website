@@ -1,4 +1,4 @@
-# natours-website
+# Natours
 
 ## Available Scripts
 
