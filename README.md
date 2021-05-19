@@ -1,7 +1,9 @@
 # Natours
 
 A tour booking website built using HTML & Sass.
-<img src="img/preview.png" alt="drawing" width="400" align="right"/>
+
+### Demo
+[Click here](https://book-tour.netlify.app/) to view demo.
 
 ## Available Scripts
 
